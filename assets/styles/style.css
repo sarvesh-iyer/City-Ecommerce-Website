@@ -1,0 +1,580 @@
+/* CSS RESETS STARTS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* HTML5 display-role reset for older browsers starts here*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* HTML5 display-role reset for older browsers ends here*/
+/* CSS RESETS ENDS HERE */
+
+html {
+  text-align: center;
+}
+
+/* HEADER */
+.webp header {
+  background: url(/assets/images/Hero-2.webp) no-repeat center;
+  background-size: cover;
+}
+
+.no-webp header {
+  background: url(/assets/images/Hero-2.png) no-repeat center;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: 931px;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+header .wrapper .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 22px 0 24px;
+  width: 966px;
+}
+
+header .wrapper h1 {
+  font-family: Didot;
+  font-size: 222px;
+  font-style: italic;
+  letter-spacing: 12px;
+  color: #ffffff;
+  margin-top: 285px;
+}
+
+header .wrapper p {
+  font-family: Helvetica;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.btn-shop {
+  display: flex;
+  border: solid 2px #ffffff;
+  background-color: #000000;
+  padding: 13px 19px 15px 28px;
+  cursor: pointer;
+  margin: 46px auto;
+  align-items: center;
+}
+header .wrapper .btn-shop a {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 21px;
+  text-decoration: none;
+}
+
+/* SECTION */
+
+.wrapper .category {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -117px;
+}
+
+.category div {
+  width: 500px;
+  height: 324px;
+}
+.category div h2 {
+  font-family: Helvetica;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 188px;
+}
+.no-webp .category .sunglasses {
+  background: url(/assets/images/sunglasses.png) no-repeat center / cover;
+}
+.no-webp .category .jackets {
+  background: url(/assets/images/jacket.png) no-repeat center / cover;
+}
+
+.webp .category .sunglasses {
+  background: url(/assets/images/sunglasses.webp) no-repeat center / cover;
+}
+.webp .category .jackets {
+  background: url(/assets/images/jacket.webp) no-repeat center / cover;
+}
+
+.btn-category {
+  display: flex;
+  padding: 11px 30px 11px 32px;
+  border: solid 2px #ffffff;
+  background-color: rgba(0, 0, 0, 0.24);
+  margin: 20px auto 0 auto;
+  cursor: pointer;
+  align-items: center;
+}
+
+.btn-category a {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+/* FEATURED PRODUCT */
+
+section .wrapper h3 {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  text-align: left;
+  margin-top: 60px;
+}
+
+hr {
+  background-color: #eeeeee;
+  border: solid 1px #eeeeee;
+}
+
+.product-container {
+  display: flex;
+  margin-top: 62px;
+  margin-left: 111px;
+}
+
+.product-container p,
+.product-container .side-product .sweater p {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 26px;
+  margin-bottom: 22px;
+}
+.side-product {
+  margin-left: 30px;
+}
+.product-container .side-product p {
+  margin-top: 18px;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 90px;
+  padding-top: 29px;
+  padding-bottom: 25px;
+  background-color: #f6f6f6;
+}
+
+footer .wrapper {
+  /* background-color: #f6f6f6; */
+  color: #444444;
+}
+
+footer .wrapper h2 {
+  font-family: Helvetica Light;
+  font-size: 24px;
+  letter-spacing: 0.43px;
+  text-align: center;
+}
+
+.wrapper .contact {
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+
+.wrapper .contact a {
+  font-family: Helvetica Light;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.25px;
+  color: #000;
+  margin-right: 51px;
+}
+
+.footer-info {
+  display: flex;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 81px;
+}
+
+.footer-info .menu li {
+  margin-top: 14px;
+}
+
+.footer-info .menu li a {
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 12px;
+  letter-spacing: 0.22px;
+  color: #000000;
+}
+
+.footer-info h3 {
+  font-family: Helvetica Light;
+  font-size: 18px;
+  letter-spacing: 0.32px;
+}
+
+.footer-info .about-us {
+  width: 569px;
+  margin-left: 107px;
+}
+
+.footer-info .about-us p {
+  margin-top: 20px;
+  font-family: Helvetica;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.social-media {
+  margin-top: 40px;
+  display: flex;
+  height: 21px;
+  margin-left: auto;
+}
+
+.social-media a {
+  margin-left: 21px;
+}
+.social-media a:first-child {
+  margin-left: 0;
+}
+
+footer .wrapper hr {
+  background-color: #cccccc;
+  border: solid 1px #cccccc;
+}
+
+footer .wrapper .label p {
+  font-size: 13px;
+  margin-top: 11px;
+  letter-spacing: 0.23px;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  header {
+    width: 1024px;
+  }
+  footer {
+    width: 1024px;
+  }
+}
+
+/* MEDIA QUERY STARTS HERE */
+/* Extra-Small devices (portrait phones, landscape phones, less than 767px) */
+
+@media (max-width: 767.98px) {
+  .wrapper {
+    /* border: 1px solid black; */
+    width: 352px;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 100%;
+    min-width: 352px;
+    height: 419px;
+  }
+
+  header .wrapper {
+    margin: 0 13px;
+    width: auto;
+  }
+
+  header .wrapper .nav-container {
+    padding: 8px 0 0 0;
+    width: auto;
+  }
+
+  header .wrapper h1 {
+    font-size: 72px;
+    letter-spacing: 1.3px;
+    margin-top: 164px;
+  }
+
+  header .wrapper p {
+    font-size: 18px;
+  }
+
+  .btn-shop {
+    padding: 13px 19px 12px 25px;
+    margin: 9px auto;
+  }
+
+  header .wrapper .btn-shop p {
+    font-size: 14px;
+  }
+
+  /* SECTION */
+
+  .wrapper .category {
+    margin-top: -35px;
+    flex-direction: column;
+  }
+  section .wrapper .category .sunglasses {
+    width: 352px;
+    height: 250px;
+  }
+
+  .nowebp section .wrapper .category .jackets {
+    background: url(/assets/images/leatherjacket.png) no-repeat center / cover;
+  }
+
+  .webp section .wrapper .category .jackets {
+    background: url(/assets/images/leatherjacket.webp) no-repeat center / cover;
+  }
+
+  section .wrapper .category .jackets {
+    margin-top: 15px;
+    width: 352px;
+    height: 324px;
+  }
+  section .wrapper .category .jackets h2 {
+    margin-top: 213px;
+  }
+  .category div h2 {
+    font-size: 28px;
+    margin-top: 146px;
+  }
+  .btn-category {
+    padding: 8px 19px 9px;
+  }
+  .btn-category p {
+    font-size: 16px;
+    margin-right: 19px;
+  }
+
+  /* FEATURED PRODUCTS */
+
+  section .wrapper h3 {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+
+  .product-container {
+    margin: 29px auto 0 auto;
+    width: 290px;
+    flex-direction: column;
+  }
+  section .wrapper .product-container img,
+  .side-product img {
+    width: 290px;
+    height: 290px;
+  }
+  .side-product {
+    margin-left: 0;
+  }
+  .product-container .side-product p {
+    margin-top: 10px;
+  }
+  .product-container p,
+  .product-container .side-product .sweater p {
+    margin-top: 10px;
+    margin-bottom: 55px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    width: 100%;
+    min-width: 352px;
+    margin-top: 20px;
+    padding-top: 32px;
+    padding-bottom: 44px;
+  }
+
+  footer .wrapper h2 {
+    font-size: 20px;
+    letter-spacing: 0.36px;
+  }
+
+  /* ============================= */
+  footer .wrapper .contact {
+    margin-top: 34px;
+  }
+
+  /* =============================== */
+
+  footer .wrapper hr {
+    width: 320px;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 32px;
+  }
+
+  .footer-info .menu {
+    margin-left: 17px;
+  }
+  .footer-info .menu li {
+    margin-top: 18px;
+  }
+
+  .footer-info .menu li a {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+  }
+
+  .footer-info .about-us {
+    margin-top: 50px;
+    margin-left: 14px;
+    width: 320px;
+  }
+  .footer-info .about-us p {
+    margin-top: 10px;
+  }
+
+  .social-media {
+    margin-top: 36px;
+    margin-left: 15px;
+  }
+
+  footer .wrapper .label p {
+    margin-left: 17px;
+  }
+}
